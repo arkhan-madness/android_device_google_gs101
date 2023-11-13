@@ -716,6 +716,10 @@ endif
 ## VIDEO
 ####################################
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackagesDevice
+
 $(call soong_config_set,bigo,soc,gs101)
 
 # 1. Codec 2.0
